@@ -1,0 +1,341 @@
+.cointainer{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: rgb(55, 59, 62);
+}
+
+.logo{
+    width: 8%;
+    height: 100%;
+    background-image: url("image/LOGO1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+.space{
+    width: 56%;
+    height: 100%;
+    background-color: rgb(55, 59, 62);
+}
+
+.navigations{
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+.navigation{
+    width: 40%;
+    height: 50%;
+    background-color: rgb(55, 59, 62);
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+}
+
+.language{
+    height: 50%;
+    text-align: right;
+    border: none;
+    background-color: rgb(55, 59, 62);
+    margin-top: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+
+}
+
+.adver{
+    width: 100%;
+    height: 180px;
+    background-image: url(image/background.jpg);
+    /* background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255, 0.4)), url(image/background.jpg); */
+    background-size: 65%;
+    background-position-x: right;
+    background-position-y: -35px;
+    background-repeat: no-repeat;
+}
+
+.subjudul{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26pt;
+    line-height: 31pt;
+}
+
+.free{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.form{
+    width: 100%;
+    height: 700px;
+    padding-top: 20px;
+    background-color: white;
+    display: flex;
+}
+
+.spacing{
+    width: 25%;
+    height: 100%;
+}
+.upperline{
+    background-color: rgb(233, 103, 41);
+    height: 3px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.sign-up{
+    width: 50%;
+    height: 100%;
+    border: white;
+    box-shadow: 0 0 0 0 white, 0 0 0 0 white, 0 0 0 -8px black, 0 0 12px -8px black;
+    border-radius: 0px;
+}
+
+.country{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warning{
+    width: 75%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.email input[type=text]{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#error_user{
+    margin-left: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.password input[type=password]{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#error_pass{
+    margin-left: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.confirm input[type=password]{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 12pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#error_conf{
+    margin-left: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+
+.terms{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.check { 
+    filter: hue-rotate(150deg);
+}
+
+input[type=checkbox] {
+    cursor: pointer;
+    margin-top: -36px;
+    margin-left: 0px;
+}
+
+#error_check{
+    margin-left: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.conf{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.conf button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(233, 103, 41);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.conf button:hover{
+    background: orange;
+    color: white;
+}
+
+.member{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.exp{
+    width: 25%;
+    height: 100%;
+}
+
+.tips{
+    width: 85%;
+    margin: auto;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trial{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtrial{
+    width: 85%;
+    margin: auto;
+    margin-top: -7px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+.service{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subservice{
+    width: 85%;
+    margin: auto;
+    margin-top: -7px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+.acc{
+    width: 85%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subacc{
+    width: 85%;
+    margin: auto;
+    margin-top: -7px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(75, 80, 84);
+}
+
+.aboutus{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    color: rgb(175, 183, 178);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copyright{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    color: rgb(175, 183, 178);
+    font-family: Arial, Helvetica, sans-serif;
+}
